@@ -1,0 +1,250 @@
+name: trevatell_template
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  shimmer: ^0.0.6
+  transparent_image: ^0.1.0
+  flutter_slidable: ^0.5.7
+  carousel_pro: ^1.0.0
+  simple_animations: ^1.3.3
+  like_button: ^0.1.9
+  percent_indicator: ^1.0.15
+  flutter_rating: ^0.0.2
+  giffy_dialog: ^1.3.0
+  flutter_credit_card:
+  google_maps_flutter: ^0.5.27+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/font/OpenSans-Semibold.ttf
+          weight: 600
+        - asset: assets/font/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/font/OpenSans-Light.ttf
+          weight: 200
+    - family: One
+      fonts:
+        - asset: assets/font/HaveHeartOne.ttf
+          weight: 400
+    - family : Berlin
+      fonts:
+        - asset: assets/font/berlin.TTF
+          weight: 600
+    - family : Gotik
+      fonts:
+        - asset: assets/font/GOTHIC.TTF
+          weight: 300
+        - asset: assets/font/gotik.TTF
+          weight: 600
+    - family : Amira
+      fonts:
+        - asset: assets/font/Amira.otf
+          weight: 500
+    - family : Sofia
+      fonts:
+        - asset: assets/font/Sofia/SofiaProBold.otf
+          weight: 900
+        - asset: assets/font/Sofia/SofiaProSemiBold.otf
+          weight: 800
+        - asset: assets/font/Sofia/SofiaProMedium.otf
+          weight: 700
+        - asset: assets/font/Sofia/SofiaProRegular.otf
+          weight: 600
+        - asset: assets/font/Sofia/SofiaProLight.otf
+          weight: 500
+        - asset: assets/font/Sofia/SofiaProExtraLight.otf
+          weight: 400
+        - asset: assets/font/Sofia/SofiaProUltraLight.otf
+          weight: 300
+    - family : category
+      fonts:
+        - asset: assets/custom_icon/ic_category.ttf
+    - family : message
+      fonts:
+        - asset: assets/custom_icon/ic_message.ttf
+    - family : trip
+      fonts:
+        - asset: assets/custom_icon/ic_trip.ttf
+    - family : file
+      fonts:
+        - asset: assets/custom_icon/ic_file.ttf
+    - family : hearth
+      fonts:
+        - asset: assets/custom_icon/ic_hearth.ttf
+    - family : home
+      fonts:
+        - asset: assets/custom_icon/ic_home.ttf
+    - family : profile
+      fonts:
+        - asset: assets/custom_icon/ic_profile.ttf
+
+  assets:
+    - assets/map_style/map_style.txt
+    - assets/image/onBoardingImage/onBoarding1.png
+    - assets/image/onBoardingImage/onBoarding2.png
+    - assets/image/onBoardingImage/onBoarding3.png
+    - assets/image/splashScreen/splashScreen.png
+    - assets/image/splashScreen/headerLogin.png
+    - assets/image/icon/fbIcon.png
+    - assets/image/icon/googleIcon.png
+    - assets/image/icon/amerika.png
+    - assets/image/icon/paris.png
+    - assets/image/icon/england.png
+    - assets/image/icon/italia.png
+    - assets/image/icon/spanyol.png
+    - assets/image/icon/marker.png
+    - assets/image/icon/thailand.png
+    - assets/image/icon/twitterIcon.png
+    - assets/image/icon/food.png
+    - assets/image/images/Bubble.png
+    - assets/image/images/GirlProfile.png
+    - assets/image/hotel/hotel1.jpg
+    - assets/image/hotel/hotel2.jpg
+    - assets/image/hotel/hotel3.jpg
+    - assets/image/homeImage/experience.png
+    - assets/image/homeImage/home.png
+    - assets/image/homeImage/hotel.png
+    - assets/image/homeImage/travel.png
+    - assets/image/destinationPopuler/populer1.png
+    - assets/image/destinationPopuler/populer2.png
+    - assets/image/destinationPopuler/populer3.png
+    - assets/image/destinationPopuler/populer4.png
+    - assets/image/images/bannerProfile.png
+    - assets/image/images/map.png
+    - assets/image/images/search1.png
+    - assets/image/images/search2.png
+    - assets/image/images/search3.png
+    - assets/image/illustration/message.png
+    - assets/image/illustration/girlcallcenter.png
+    - assets/image/room/room1.jpg
+    - assets/image/room/room2.jpg
+    - assets/image/room/room3.jpg
+    - assets/image/room/room4.jpg
+    - assets/image/room/room5.jpg
+    - assets/image/room/room6.jpg
+    - assets/image/room/room7.jpg
+    - assets/image/room/room8.jpg
+    - assets/image/room/room9.jpg
+    - assets/image/room/room10.jpg
+    - assets/image/room/room11.jpg
+    - assets/image/room/room12.jpg
+    - assets/image/room/room13.jpg
+    - assets/image/room/room14.jpg
+    - assets/image/room/room15.jpg
+    - assets/image/room/room16.jpg
+    - assets/image/room/room17.jpg
+    - assets/image/room/room18.jpg
+    - assets/image/room/room19.jpg
+    - assets/image/room/room20.jpg
+    - assets/image/room/room21.jpg
+    - assets/image/destinationPopuler/destination1.png
+    - assets/image/destinationPopuler/destination3.jpg
+    - assets/image/destinationPopuler/destination4.jpg
+    - assets/image/destinationPopuler/destination5.jpg
+    - assets/image/destinationPopuler/destination6.jpg
+    - assets/image/destinationPopuler/destination7.jpg
+    - assets/image/destinationPopuler/destination8.jpg
+    - assets/image/destinationPopuler/destination9.jpg
+    - assets/image/destinationPopuler/destination10.jpg
+    - assets/image/destinationPopuler/tripBackground.png
+    - assets/image/illustration/social.png
+    - assets/image/illustration/noMessage.png
+    - assets/image/illustration/peopleChat.png
+    - assets/image/illustration/empty.png
+    - assets/image/icon/box.png
+    - assets/image/icon/logo1.png
+    - assets/image/icon/logo2.png
+    - assets/image/icon/logo3.png
+    - assets/image/icon/logo4.png
+    - assets/image/icon/wifi.png
+    - assets/image/icon/monitor.png
+    - assets/image/icon/swimming.png
+    - assets/image/icon/clean.png
+    - assets/image/icon/notification.png
+    - assets/image/profile/profile1.jpg
+    - assets/image/profile/profile2.jpg
+    - assets/image/profile/profile3.jpg
+    - assets/image/profile/profile4.jpg
+    - assets/image/profile/profile5.jpg
+    - assets/image/profile/profile6.jpg
+    - assets/image/profile/pp1.jpg
+    - assets/image/profile/pp2.jpg
+    - assets/image/profile/pp3.jpg
+    - assets/image/profile/pp4.jpg
+    - assets/image/profile/pp5.jpg
+    - assets/image/profile/pp6.jpg
+    - assets/image/banner/banner1Travel.jpg
+    - assets/image/banner/banner2Travel.jpg
+    - assets/image/banner/banner3Travel.jpg
+    - assets/image/banner/banner4Travel.jpg
+    - assets/image/banner/banner1.jpg
+    - assets/image/banner/banner2.jpg
+    - assets/image/banner/banner3.jpg
+    - assets/image/banner/banner4.jpg
+    - assets/image/banner/banner5.jpg
+    - assets/image/banner/banner6.jpg
+    - assets/image/banner/banner7.jpg
+    - assets/image/banner/banner8.jpg
+    - assets/image/banner/banner9.jpg
+    - assets/image/banner/banner10.jpg
+    - assets/image/banner/banner11.jpg
+    - assets/image/banner/banner12.jpg
+    - assets/image/banner/banner13.jpg
+    - assets/image/icon/callCenter.png
+    - assets/image/icon/card.png
+    - assets/image/icon/coupon.png
+    - assets/image/icon/settings.png
+    - assets/image/icon/profile.png
+    - assets/image/icon/confetti.png
+    - assets/image/icon/sneaker.png
+    - assets/image/icon/lamp.png
+    - assets/image/icon/plant.png
+    - assets/image/icon/bag.png
+    - assets/image/icon/tour.png
+    - assets/image/icon/playground.png
+    - assets/image/icon/ticket.png
+    - assets/image/logo/logo.png
+    - assets/video/onBoarding.gif
+    - assets/image/illustration/messageIlustration.png
+
+
